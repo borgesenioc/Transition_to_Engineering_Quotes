@@ -14,9 +14,11 @@ This is a component of the module 'Software Development Foundation' of my 'Backe
 * The app uses JS to create the mechanism that selects a random quote and brings it back to the user.
 * the files are created in my directory and stored in Github.
 
-2. **My key questions**
+2. **My newbie questions**
 * How to display an HTML file from GitHub to a web browser (I don't plan to host it in any domain right now)
+A: Just use the 'raw' version provided by GitHub.
 * How to create a relative path from an HTML file to a CSS and JS file inside GitHub
+A: Just reference the GitHub raw url source to the destination file.
 
 3. **The plan**
 >A. Create a list of 20 quotes from experts about starting another career into software engineering. 20 min
