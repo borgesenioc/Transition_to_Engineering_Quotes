@@ -41,8 +41,6 @@ const returnQuote = () => {
 
 };
 
-console.log(returnQuote());
-
 //connects the click of an element at the DOM with running the select-quote function
 const element = index.html.getElementById('quoteButton');
 element.addEventListener("click", returnQuote);
