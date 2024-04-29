@@ -1,0 +1,17 @@
+#centeredButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh; 
+}
+
+#centeredTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh; /* Vertically center the button a bit */
+}
+
+#quoteDisplay {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}

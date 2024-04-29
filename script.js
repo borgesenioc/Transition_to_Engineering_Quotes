@@ -31,16 +31,13 @@ const returnQuote = () => {
     let randomQuote = quotesArray[randomNumber][1];
     let randomCredentials = quotesArray[randomNumber][2];
 
-    let randomSelection = [
-        randomQuote,
-        randomAuthor,
-        randomCredentials,
-    ]
+    let displayText = `<blockquote>${randomQuote}</blockquote><p>— ${randomAuthor}, ${randomCredentials}</p>`;
 
-    return `<blockquote>${randomQuote}</blockquote><p>— ${randomAuthor}, ${randomCredentials}</p>`;
-
+    document.getElementById('quoteDisplay').innerHTML = displayText; // Updates the quote display container
 };
 
 //connects the click of an element at the DOM with running the select-quote function
-const element = index.html.getElementById('quoteButton');
-element.addEventListener("click", returnQuote);
+document.addEventListener('DOMContentLoaded', () => {
+    const element = document.getElementById('quoteButton');
+    element.addEventListener("click", returnQuote);
+});
