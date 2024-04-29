@@ -11,7 +11,14 @@
 }
 
 #quoteDisplay {
-    display: flex;
-    justify-content: center;
-    margin-top: 20vh;
+    text-align: center; /* Center the text of the quote and author details */
+    margin-top: 20px; /* Add some space above the quote display area */
+}
+
+#quoteDisplay p {
+    margin: 10px 0; /* Spacing between quote and author */
+}
+
+blockquote {
+    font-style: bold; /* Optional: Style for quotes */
 }

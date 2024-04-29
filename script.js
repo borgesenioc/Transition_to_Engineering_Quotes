@@ -31,7 +31,7 @@ const returnQuote = () => {
     let randomQuote = quotesArray[randomNumber][1];
     let randomCredentials = quotesArray[randomNumber][2];
 
-    let displayText = `<blockquote>${randomQuote}</blockquote><p>— ${randomAuthor}, ${randomCredentials}</p>`;
+    let displayText = `<p>${randomQuote}</p><p>— ${randomAuthor}, ${randomCredentials}</p>`;
 
     document.getElementById('quoteDisplay').innerHTML = displayText; // Updates the quote display container
 };
