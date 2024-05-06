@@ -8,15 +8,15 @@
     display: flex;
     justify-content: center;
     margin-top: 20vh; /* Vertically center the button a bit */
+    font-size: 45px
 }
 
 #quoteDisplay {
     text-align: center; /* Center the text of the quote and author details */
     margin-top: 20px; /* Add some space above the quote display area */
-}
-
-#quoteDisplay p {
+    font-size: 30px;
     margin: 10px 0; /* Spacing between quote and author */
+    font-style: italic;
 }
 
 blockquote {
